@@ -1,0 +1,31 @@
+/* Reset for demonstration */
+
+/* Webkit Browsers */
+::-webkit-scrollbar {
+  width: 1rem; /* Scrollbar width */
+  transition: .5s;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Track background */
+  border-radius: 0px; /* Rounded track corners */
+  box-shadow: inset 0px 0px .7rem white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Thumb background */
+  border-radius: 0px; /* Rounded thumb corners */
+  box-shadow: inset 0px 0px .8rem #d7b737;
+  transition: .5s;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; /* Thumb background on hover */
+  box-shadow: inset 0px 0px 1rem #79b84b;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+/* Firefox Scrollbar for compatibility */
