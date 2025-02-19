@@ -64,9 +64,11 @@
     padding: 20px 15px;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link:hover {
     background: var(--secondary);
+}
+.cursor-pointer{
+    cursor: pointer;
 }
 
 @media (max-width: 991.98px) {
@@ -105,8 +107,10 @@
 }
 
 .bg-hero {
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url("https://aksuniversity.ac.in/sites/default/files/2024-04/bscagriculture.jpg") no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 
 @media (min-width: 991.98px) {
@@ -223,7 +227,7 @@
 }
 
 .bg-testimonial {
-    background: url(../img/testimonial.jpg) top center no-repeat;
+    background: url("https://img.staticmb.com/mbcontent/images/crop/uploads/2023/1/Tax-on-Income-%20from-Agriculture%20(1)_0_1200.jpg") top center no-repeat;
     background-size: cover;
 }
 
